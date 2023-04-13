@@ -63,7 +63,7 @@ select {
 input, textarea {
   background-color: seashell;
   border: 1px solid grey;
-  color: #ffffff;
+  color: #000000;
 }
 
 .inline {
@@ -87,3 +87,6 @@ input[type="submit"]{
   text-align:center;
 }
 
+input[type="submit"]{
+  color: white;
+}

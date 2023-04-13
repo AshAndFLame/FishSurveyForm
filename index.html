@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="title" class="title">The Fishiest Survey</h1>
+    <p id="description" class="description">Thank you for fish!</p>
+  </head>
+  <hr class="divider" />
+  <body>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label" class="nametext">Name<input id="name" type="text"required placeholder="Enter your name" /></label>
+      <label id="email-label" class="emailtext">Email<input id="email" type="email" required placeholder="Enter your email" /></label>
+      <label id="number-label" class="agetext">Age<input id="number" type="number" min="13" max="120" required placeholder="Enter your Age" /></label>
+    </fieldset>
+    <hr class="divider" />
+    <fieldset>
+      <label id="Sunfish" class="sos">Do you support the Oceanic Sunfish (scientific name <i>Mola mola</i>)</label>
+      <select id="dropdown">
+        <option>(Select an option)</option>
+        <option>No</option>
+        <option>Yes</option>
+        <option>I'm neutral</option>
+        <option>What's a sunfish?</option>
+      </select>
+      </fieldset>
+      <fieldset>
+      <label class="fac">What's your favorite aquatic creature?</label>
+      <div></div>
+        <input type="radio" name="favorite-oceanic-organism" value="octopus"class="inline" /><label for="octopus">Octopus</label>
+        <input type="radio" name="favorite-oceanic-organism" value="turtle" class="inline" /><label for="turtle">Turtle</label>
+        <input type="radio" name="favorite-oceanic-organism" value="crab" class="inline" /><label for="crab"><label for="crab">Crab</label>
+        <input type="radio" name="favorite-oceanic-organism" value="shrimp" class="inline" /><label for="shrimp">Shrimp</label>
+        <input type="radio" name="favorite-oceanic-organism" value="sea-slug" class="inline" /><label for="sea-slug">Sea Slug</label>
+        <input type="radio" name="favorite-oceanic-organism" value="sea-slug" class="inline" /><label for="sea-slug">Fish</label>
+      </fieldset>
+      <fieldset>
+       <label class="kaf">Would you kiss a fish?</label>
+       <div></div>
+        <input type="checkbox" name="fish-kiss" value="yes" class="inline" /><label for="yes">Yes</label>
+        <input type="checkbox" name="fish-kiss" value="definitely" class="inline" /><label for="definitely">Definitely</label>
+        <input type="checkbox" name="fish-kiss" value="absolutely" class="inline" /><label for="absolutely">Absolutely</label>
+      </fieldset>
+      <fieldset>
+      <label>Describe the horrors of the deep dark depths below</label><textarea required placeholder="Type your answer here"></textarea>
+      </fieldset>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
